@@ -187,4 +187,6 @@ Note that doze dreams are not subject to the same start conditions as ordinary d
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
 
+    <!-- Should the pinner service pin the Home application? -->
+    <bool name="config_pinnerHomeApp">false</bool>
 </resources>
