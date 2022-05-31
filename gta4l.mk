@@ -149,6 +149,7 @@ PRODUCT_PACKAGES += \
     disable_configstore
 
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
 # Display
 PRODUCT_PACKAGES += \
