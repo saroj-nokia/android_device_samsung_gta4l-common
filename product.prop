@@ -24,3 +24,7 @@ ro.launcher.blur.appLaunch=0
 debug.sf.enable_transaction_tracing=false
 debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
