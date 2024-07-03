@@ -407,6 +407,9 @@ on post-fs-data
     write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor "performance"
     write /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor "performance"
 
+    # Disable unwanted services
+    setprop persist.service.unwantedapp.disable 1
+
     # Create vpp directory
     mkdir /data/vendor/vpp 0770 media media
 
