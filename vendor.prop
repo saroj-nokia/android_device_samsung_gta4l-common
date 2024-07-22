@@ -316,3 +316,9 @@ ro.hwui.texture_cache_flushrate=0.4
 
 # Improve graphics
 persist.sys.purgeable_assets=1
+
+# Touch hax
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
